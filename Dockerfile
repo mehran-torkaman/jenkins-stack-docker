@@ -129,6 +129,9 @@ RUN ln -s /root/go/bin/protoc-gen-go /usr/local/bin/protoc-gen-go
 RUN ln -s /root/go/bin/protoc-gen-grpc-gateway /usr/local/bin/protoc-gen-grpc-gateway
 RUN ln -s /root/go/bin/protoc-gen-openapiv2 /usr/local/bin/protoc-gen-openapiv2
 
+##### Install pkg-config
+RUN apt-get install -y pkg-config
+
 ##### Install tf2
 
 RUN pip install tf2project
