@@ -131,6 +131,7 @@ RUN ln -s /root/go/bin/protoc-gen-openapiv2 /usr/local/bin/protoc-gen-openapiv2
 
 ##### Install pkg-config
 RUN apt-get install -y pkg-config
+RUN apt-get install -y libsodium-dev
 
 ##### Install tf2
 
